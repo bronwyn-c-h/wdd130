@@ -42,7 +42,10 @@ p {
 #main-topic {
     color: steelblue
 }
+footer{
+    margin-top: 50px;
+}
 footer a {
     color: white;
-    
+
 }
