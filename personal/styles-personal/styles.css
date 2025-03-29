@@ -107,6 +107,7 @@ body {
 
 .card-img{
     width: 400px;
+    
 }
 
 .home-grid {
@@ -118,11 +119,12 @@ body {
     gap: 20px;
     max-width: 1000px; 
     width: 90%;
+    padding: 20px;
 }
 
 #contact-msg {
     width: 400px; 
-    padding: 20px;
+    padding-bottom: 20px;
     background-color: #f9f9f9; 
     border: 2px solid #333; 
     border-radius: 10px; 
@@ -162,6 +164,7 @@ footer p a:hover{
 text-decoration: underline;
 }
 footer{
+    clear: both;
     background-color: #4B1D3F;
     color: white;
     padding: 25px 50px;
@@ -181,4 +184,73 @@ footer a:hover{
 .icon{
     height: 60px;
     width: auto;
+}
+
+/*aboutme.html*/
+
+#content {
+    background: #d4f4dd;
+}
+#about-msg {
+    margin: 10px;
+    background: #d4f4dd;
+    padding: 20px;
+    border: 5px solid #17bebb;
+}
+
+.about-img {
+    width: 600px; 
+    float: left;
+    margin: 20px;
+}
+
+.title {
+    font-size: xx-large;
+}
+
+.para {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: large;
+}
+
+.subtitle {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.beta {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.points{
+padding-left: 40px;
+}
+
+#barton {
+    margin: 10px;
+    background: #d4f4dd;
+    padding: 20px;
+    border: 5px solid #17bebb;
+}
+
+.barton-img {
+    width: 600px; 
+    float: right;
+    margin: 20px;
+}
+
+#esl {
+    margin: 10px;
+    background: #d4f4dd;
+    padding: 20px;
+    border: 5px solid #17bebb;
+
+}
+
+.esl-img {
+    width: 600px; 
+    float: left;
+    margin: 20px;
 }
